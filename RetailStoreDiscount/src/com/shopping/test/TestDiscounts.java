@@ -31,9 +31,9 @@ public class TestDiscounts {
 
     @Before
     public void setUp() {
-    	employee = new User(UserType.EMPLOYEE, "John");
-    	affiliate = new User(UserType.AFFILIATE, "Michael");
-    	simpleUser = new User(UserType.BASIC, "Bob");
+    	employee = new User(UserType.EMPLOYEE, "user1");
+    	affiliate = new User(UserType.AFFILIATE, "user2");
+    	simpleUser = new User(UserType.BASIC, "user3");
     	simpleUserWith2Years = new User(UserType.BASIC, "Alex", LocalDateTime.of(2014, 7, 19, 6, 40, 45));
         groceryItem = new Product("Rice", 20, ItemType.GROCERY);
         otherItem = new Product("TV", 222, ItemType.OTHER);
